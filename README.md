@@ -17,8 +17,9 @@ Before running the project, follow these setup instructions to deploy the TAO mo
 
 ## Usage
 
-### Input JSON Format
+### Input and output JSON Format
 
+###input JSON
 ```json
 {
     "imagedata": [
@@ -27,4 +28,33 @@ Before running the project, follow these setup instructions to deploy the TAO mo
         { "car3": "<Image data in BASE64>" },
         { "car4": "<Image data in BASE64>" }
     ]
+}
+
+
+### Output JSON 
+{
+    {
+        "image_name": "car1.jpg",
+        "roi": ["230.733", "352.912", "323.963", "396.589"],
+        "lpNum": "265996",
+        "confidence": 0.999
+    },
+    {
+        "image_name": "car2.jpg",
+        "roi": ["261.487", "236.833", "368.392", "293.144"],
+        "lpNum": "202864",
+        "confidence": 0.998
+    },
+    {
+        "image_name": "car3.jpg",
+        "roi": ["274.906", "336.991", "379.444", "381.654"],
+        "lpNum": "328301",
+        "confidence": 0.998
+    },
+    {
+        "image_name": "car4.jpg",
+        "roi": ["261.189", "384.255", "370.871", "436.328"],
+        "lpNum": "220080",
+        "confidence": 0.998
+    }
 }
