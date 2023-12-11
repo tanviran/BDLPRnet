@@ -1,6 +1,6 @@
 # BDLPRnet
 
-BDLPRnet is a Flask API for License Plate Recognition (LPR) that integrates with NVIDIA's TAO Toolkit for deployment. The project takes base64-encoded images as input, performs license plate detection, license plate detection, and returns information about the detected license plates.
+BDLPRnet is a Flask API for License Plate Recognition (LPR) that integrates with NVIDIA's TAO Toolkit for deployment. The project takes base64-encoded images as input, performs license plate detection, license plate recognition, and returns information about the detected license plates.
 
 ## Setup TAO Deploy
 
