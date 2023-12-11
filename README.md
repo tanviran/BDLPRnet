@@ -19,7 +19,6 @@ Before running the project, follow these setup instructions to deploy the TAO mo
 
 ### Input and output JSON Format
 
-###input JSON
 ```json
 {
     "imagedata": [
@@ -29,9 +28,12 @@ Before running the project, follow these setup instructions to deploy the TAO mo
         { "car4": "<Image data in BASE64>" }
     ]
 }
+```
 
 
-### Output JSON 
+
+### Here is an example of the expected output from the API:
+```json
 {
     {
         "image_name": "car1.jpg",
@@ -58,3 +60,4 @@ Before running the project, follow these setup instructions to deploy the TAO mo
         "confidence": 0.998
     }
 }
+```
