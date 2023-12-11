@@ -1,4 +1,5 @@
 # app.py
+#install flask first
 import shutil
 from flask import Flask, request, jsonify
 from nvidia_tao_deploy.cv.BDLPRnet.flask_api.base64jpg import convert_json_to_images_parallel
