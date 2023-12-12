@@ -17,7 +17,7 @@ Before running the project, follow these setup instructions to deploy the TAO mo
 3. Clone this repository:
     ```bash
     cd nvidia_tao_deploy
-    git clone https://git@github.com:tanviran/BDLPRnet.git
+    git clone https://github.com/tanviran/BDLPRnet.git
     cd BDLPRnet/flask_api
     python3 app.py
     ```
