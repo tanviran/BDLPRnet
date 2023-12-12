@@ -16,7 +16,7 @@ Before running the project, follow these setup instructions to deploy the TAO mo
 2. Follow the instructions in the [TAO Deploy README](https://github.com/NVIDIA/tao_deploy) for setting up the required dependencies and deploying the models.
 3. Clone this repository:
     ```bash
-    cd nvidia_tao_deploy
+    cd nvidia_tao_deploy/cv
     git clone https://github.com/tanviran/BDLPRnet.git
     cd BDLPRnet/flask_api
     python3 app.py
