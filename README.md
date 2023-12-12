@@ -29,6 +29,7 @@ Before running the project, follow these setup instructions to deploy the TAO mo
     ]
 }
 ```
+![BDLPRnet ](https://github.com/tanviran/BDLPRnet/assets/97601593/c34cd5c0-eaff-4167-80f5-a4fb82736126)
 
 
 
