@@ -15,9 +15,9 @@ Before running the project, follow these setup instructions to deploy the TAO mo
 
 2. Follow the instructions in the [TAO Deploy README](https://github.com/NVIDIA/tao_deploy) for setting up the required dependencies and deploying the models.
 
-## Usage
+## Visual 
 
-### Input and output JSON Format
+### Input JSON Format
 
 ```json
 {
@@ -29,6 +29,7 @@ Before running the project, follow these setup instructions to deploy the TAO mo
     ]
 }
 ```
+
 ![BDLPRnet ](https://github.com/tanviran/BDLPRnet/assets/97601593/c34cd5c0-eaff-4167-80f5-a4fb82736126)
 
 
